@@ -1,0 +1,31 @@
+FROM node:22.9.0 AS builder
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+FROM node:22.9.0-alpine AS runner
+
+WORKDIR /app
+
+# Copy necessary files from builder stage
+COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+# COPY --from=builder /app /app
+
+
+# Next.js collects anonymous telemetry data about general usage.
+# Learn more here: https://nextjs.org/telemetry
+# Uncomment the following line to disable telemetry
+# ENV NEXT_TELEMETRY_DISABLED 1
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
