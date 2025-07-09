@@ -95,34 +95,82 @@ docker-compose up -d
 ---
 
 ### User Screens
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px; margin-bottom: 40px;">
-  <div><img src="demo/user-profile.png" alt="User Profile" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">User Profile</div></div>
-  <div><img src="demo/user-profile-2.png" alt="User Profile 2" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">User Profile 2</div></div>
-  <div><img src="demo/user-orders.png" alt="User Orders" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">User Orders</div></div>
-  <div><img src="demo/user-order-detail.png" alt="User Order Detail" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">User Order Detail</div></div>
-  <div><img src="demo/search-page.png" alt="Search Page" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Search Page</div></div>
-  <div><img src="demo/contact-page.png" alt="Contact Page" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Contact Page</div></div>
-</div>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo/user-profile.png" alt="User Profile" width="250">
+      <br><strong>User Profile</strong>
+    </td>
+    <td align="center">
+      <img src="demo/user-profile-2.png" alt="User Profile 2" width="250">
+      <br><strong>User Profile 2</strong>
+    </td>
+    <td align="center">
+      <img src="demo/user-orders.png" alt="User Orders" width="250">
+      <br><strong>User Orders</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo/user-order-detail.png" alt="User Order Detail" width="250">
+      <br><strong>User Order Detail</strong>
+    </td>
+    <td align="center">
+      <img src="demo/search-page.png" alt="Search Page" width="250">
+      <br><strong>Search Page</strong>
+    </td>
+    <td align="center">
+      <img src="demo/contact-page.png" alt="Contact Page" width="250">
+      <br><strong>Contact Page</strong>
+    </td>
+  </tr>
+</table>
 
 ### Admin Screens
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px; margin-bottom: 40px;">
-  <div><img src="demo/admin-dashboard.png" alt="Admin Dashboard" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Dashboard</div></div>
-  <div><img src="demo/admin-products.png" alt="Admin Products" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Products</div></div>
-  <div><img src="demo/admin-orders.png" alt="Admin Orders" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Orders</div></div>
-  <div><img src="demo/admin-brands.png" alt="Admin Brands" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Brands</div></div>
-  <div><img src="demo/admin-users.png" alt="Admin Users" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Users</div></div>
-  <div><img src="demo/admin-profile.png" alt="Admin Profile" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Profile</div></div>
-  <div><img src="demo/admin-profile-2.png" alt="Admin Profile 2" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Profile 2</div></div>
-  <div><img src="demo/admin-reviews.png" alt="Admin Reviews" style="width: 100%; border-radius: 12px;" /><div style="text-align:center; margin-top:8px;">Admin Reviews</div></div>
-</div>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo/admin-dashboard.png" alt="Admin Dashboard" width="250">
+      <br><strong>Admin Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="demo/admin-products.png" alt="Admin Products" width="250">
+      <br><strong>Admin Products</strong>
+    </td>
+    <td align="center">
+      <img src="demo/admin-orders.png" alt="Admin Orders" width="250">
+      <br><strong>Admin Orders</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo/admin-brands.png" alt="Admin Brands" width="250">
+      <br><strong>Admin Brands</strong>
+    </td>
+    <td align="center">
+      <img src="demo/admin-users.png" alt="Admin Users" width="250">
+      <br><strong>Admin Users</strong>
+    </td>
+    <td align="center">
+      <img src="demo/admin-profile.png" alt="Admin Profile" width="250">
+      <br><strong>Admin Profile</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo/admin-profile-2.png" alt="Admin Profile 2" width="250">
+      <br><strong>Admin Profile 2</strong>
+    </td>
+    <td align="center">
+      <img src="demo/admin-reviews.png" alt="Admin Reviews" width="250">
+      <br><strong>Admin Reviews</strong>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 ## 🙏 Credits
-<div>
-  <strong>Contributors:</strong>
-  <a href="https://github.com/aoi36">
-    <img src="https://avatars.githubusercontent.com/u/187289163?v=4" alt="aoi36" style="width: 30px; height: 30px; border-radius: 50%; vertical-align: middle; margin-left: 8px;">
-  </a>
-  <a href="https://github.com/dungx2">
-    <img src="	https://avatars.githubusercontent.com/u/134861029?v=4" alt="dungx2" style="width: 30px; height: 30px; border-radius: 50%; vertical-align: middle; margin-left: 8px;">
-  </a>
-</div>
+
+**Contributors:** [aoi36](https://github.com/aoi36) and [dungx2](https://github.com/dungx2)
